@@ -15,6 +15,7 @@
   align-items: center;
   gap: 32px;
   list-style: circle;
+  list-style-position: inside;
 }
 
 .header__links-list-item_no-bullit {
@@ -158,7 +159,7 @@
 
 /* --- Секция Лоты --- */
 .lots {
-  padding: 180px 50px 0;
+  padding: 180px 24px 0;
 }
 
 .lots__heading {
@@ -248,7 +249,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  padding: 180px 50px;
+  padding: 180px 24px;
 }
 
 .about__column:first-child {
