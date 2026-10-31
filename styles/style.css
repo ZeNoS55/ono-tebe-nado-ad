@@ -15,7 +15,6 @@
   align-items: center;
   gap: 32px;
   list-style: circle;
-  list-style-position: inside;
 }
 
 .header__links-list-item_no-bullit {
@@ -27,6 +26,7 @@
   line-height: 1.17;
   text-decoration: underline;
   color: #000;
+  white-space: nowrap;
 }
 
 .header__link_active {
@@ -326,6 +326,7 @@
   line-height: 1.17;
   color: #000;
   text-decoration: underline;
+  white-space: nowrap;
 }
 
 .footer__menu-link_active {
